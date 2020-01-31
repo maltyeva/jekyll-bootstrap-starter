@@ -4,3 +4,6 @@ _site/*
 .jekyll-cache/*
 .jekyll-metadata
 vendor
+
+# Local Netlify folder
+.netlify
