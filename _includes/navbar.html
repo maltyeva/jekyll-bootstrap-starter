@@ -5,8 +5,11 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-item nav-link active" href="/">Home</a>
-        <a class="nav-item nav-link" href="/about.html">About</a>
+        {% for item in site.data.navbar %}
+        <a class="nav-item nav-link" href="{{item.link}}">{{ item.name }}</a>
+        {% endfor %}  
       </div>
     </div>
   </nav>
+
+  
