@@ -1,7 +1,22 @@
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
-title: "Jekyll Bootstrap Starter" # the name of your site, e.g. ACME Corp.
 
 
 sass:
   sass_dir: assets/css
+
+plugins:
+  - jekyll-autoprefixer
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+title: "Jekyll Bootstrap Starter" # the name of your site, e.g. ACME Corp.
+tagline: "An awesome tagline"
+email: your.email@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+ Add description here
+author: name
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+google_analytics: UA-111111111-1
+twitter:
+  username: 
+  card: summary #keep this to generate a twitter share card
